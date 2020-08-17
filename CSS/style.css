@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+h1{
+    padding-top: 15px; 
+    color: white;
+    position: relative;
+}
+button{
+    padding: 5px;
+    float: left;
+    background-color: white;
+    border: none;
+    position: relative;
+    margin: 0px 5px;
+    left: 40px;
+    font-weight: bold;
+    color: darkblue;
+    cursor: pointer;
+}
+
+.container{
+    width:380px;
+    margin:0 auto;
+}
+.header{
+    width: 380px;
+    height:70px;
+    background-color: blue;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    text-align: center;
+}
+.console{
+    width: 380px;
+    height:40px;
+    padding-top: 10px;
+    background-color: lightblue;
+    position: relative;
+}
+
+.content{
+    width:380px;
+    height: 430px;
+    max-height:430px;
+    background-color: #FFF;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+
+.item{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 15px;
+    padding-left:5px;
+    left:15px;
+    top:15px;
+}
+.item i.co:hover{
+    cursor: pointer;
+    color: green;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:10px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.item i.de{
+    position: absolute;
+    font-size: 15px;
+    right:15px;
+    top:15px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+
+.addtasks{
+    position: relative;
+    width: 360px;
+    height:40px;
+    background-color: lightblue;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.addtasks input{
+    position: absolute;
+    height: 35px;
+    width: 350px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+    text-align: center;
+}
+.addtasks input::-webkit-input-placeholder{
+    color: darkblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
