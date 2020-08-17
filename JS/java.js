@@ -6,6 +6,11 @@ const CHECK = "fa-check";
 const UNCHECK = "fa-circle";
 const LINE_THROUGH = "lineThrough";
 
+//scroll
+function scrollWin() {
+  window.scrollBy(0, 100);
+}
+
 // Variables
 let LIST, id;
 
